@@ -1,0 +1,20 @@
+﻿Build started 3/16/2016 4:44:12 PM.
+     1>Project "C:\Users\Joe\Documents\Visual Studio 2015\Projects\MyHeap\MyHeap\MyHeap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt testing.cpp
+         testing.cpp
+     1>c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(13): error C2374: 'i': redefinition; multiple initialization
+         c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(6): note: see declaration of 'i'
+     1>c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(15): error C2374: 'j': redefinition; multiple initialization
+         c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(9): note: see declaration of 'j'
+     1>c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(19): error C2374: 'i': redefinition; multiple initialization
+         c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(6): note: see declaration of 'i'
+     1>c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(20): error C2374: 'j': redefinition; multiple initialization
+         c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(9): note: see declaration of 'j'
+     1>c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(29): error C2374: 'i': redefinition; multiple initialization
+         c:\users\joe\documents\visual studio 2015\projects\myheap\myheap\testing.cpp(6): note: see declaration of 'i'
+     1>Done Building Project "C:\Users\Joe\Documents\Visual Studio 2015\Projects\MyHeap\MyHeap\MyHeap.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.48
