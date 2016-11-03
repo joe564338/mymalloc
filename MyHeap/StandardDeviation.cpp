@@ -32,9 +32,10 @@ void standard_deviation(int n) {
 	*summation = sqrt(*summation);
 	printf("\n%lf\n", *summation);
 }
-void main() {
+int main() {
 	printf("HOW LONG IS ARRAY?");
 	int num;
 	scanf("%d", &num);
 	standard_deviation(num);
+	return 0;
 }

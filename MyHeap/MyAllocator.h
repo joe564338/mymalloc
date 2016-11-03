@@ -11,7 +11,7 @@ struct Block {
 
 const int VOID_SIZE = sizeof(void*);
 const int OVERHEAD = sizeof(int) + VOID_SIZE;
-struct Block *freehead;
+struct Block *freehead1;
 void my_initialize_heap(int);
 void* my_alloc(int);
 void my_free(void*);
